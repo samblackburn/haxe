@@ -21,9 +21,7 @@ public class HelloWorld : global::haxe.lang.HxObject {
 	
 	
 	public static void main() {
-		unchecked {
-			global::haxe.Log.trace.__hx_invoke2_o(default(double), "Hello World", default(double), new global::haxe.lang.DynamicObject(new int[]{302979532, 1547539107, 1648581351}, new object[]{"main", "HelloWorld", "HelloWorld.hx"}, new int[]{1981972957}, new double[]{((double) (3) )}));
-		}
+		global::System.Console.WriteLine(((object) ("Hello World") ));
 	}
 	
 	

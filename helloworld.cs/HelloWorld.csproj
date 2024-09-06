@@ -59,8 +59,6 @@
 	
     <Compile Include="src\haxe\lang\Null.cs"/>
 	
-    <Compile Include="src\haxe\Log.cs"/>
-	
     <Compile Include="src\Array.cs"/>
 	
     <Compile Include="src\cs\internal\Function.cs"/>

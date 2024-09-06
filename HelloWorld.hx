@@ -1,5 +1,7 @@
+import Sys;
+
 class HelloWorld {
     static public function main() {
-        trace("Hello World");
+        Sys.println("Hello World");
     }
 }
