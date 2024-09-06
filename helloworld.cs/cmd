@@ -9,6 +9,7 @@
 src\cs\Boot.cs
 src\Std.cs
 src\haxe\lang\Null.cs
+src\haxe\Log.cs
 src\Array.cs
 src\cs\internal\Function.cs
 src\haxe\exceptions\PosException.cs

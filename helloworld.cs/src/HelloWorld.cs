@@ -21,7 +21,94 @@ public class HelloWorld : global::haxe.lang.HxObject {
 	
 	
 	public static void main() {
-		global::System.Console.WriteLine(((object) ("Hello World") ));
+		unchecked {
+			global::haxe.Log.trace.__hx_invoke2_o(default(double), "Hello World", default(double), new global::haxe.lang.DynamicObject(new int[]{302979532, 1547539107, 1648581351}, new object[]{"main", "HelloWorld", "HelloWorld.hx"}, new int[]{1981972957}, new double[]{((double) (3) )}));
+		}
+	}
+	
+	
+}
+
+
+
+#pragma warning disable 109, 114, 219, 429, 168, 162
+public class MyOptionsThing : global::haxe.lang.HxObject {
+	
+	public MyOptionsThing(global::haxe.lang.EmptyObject empty) {
+	}
+	
+	
+	public MyOptionsThing() {
+		global::MyOptionsThing.__hx_ctor__MyOptionsThing(this);
+	}
+	
+	
+	protected static void __hx_ctor__MyOptionsThing(global::MyOptionsThing __hx_this) {
+	}
+	
+	
+	public string hello;
+	
+	public bool goodbye;
+	
+	public override object __hx_setField(string field, int hash, object @value, bool handleProperties) {
+		unchecked {
+			switch (hash) {
+				case 1218336145:
+				{
+					this.goodbye = global::haxe.lang.Runtime.toBool(@value);
+					return @value;
+				}
+				
+				
+				case 616641298:
+				{
+					this.hello = global::haxe.lang.Runtime.toString(@value);
+					return @value;
+				}
+				
+				
+				default:
+				{
+					return base.__hx_setField(field, hash, @value, handleProperties);
+				}
+				
+			}
+			
+		}
+	}
+	
+	
+	public override object __hx_getField(string field, int hash, bool throwErrors, bool isCheck, bool handleProperties) {
+		unchecked {
+			switch (hash) {
+				case 1218336145:
+				{
+					return this.goodbye;
+				}
+				
+				
+				case 616641298:
+				{
+					return this.hello;
+				}
+				
+				
+				default:
+				{
+					return base.__hx_getField(field, hash, throwErrors, isCheck, handleProperties);
+				}
+				
+			}
+			
+		}
+	}
+	
+	
+	public override void __hx_getFields(global::Array<string> baseArr) {
+		baseArr.push("goodbye");
+		baseArr.push("hello");
+		base.__hx_getFields(baseArr);
 	}
 	
 	

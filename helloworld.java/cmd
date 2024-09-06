@@ -1,4 +1,6 @@
 src/haxe/root/Std.java
+src/haxe/Log.java
+src/haxe/Log_Anon_62__Fun.java
 src/haxe/lang/IEquatable.java
 src/haxe/root/Array.java
 src/haxe/exceptions/PosException.java
@@ -25,4 +27,5 @@ src/haxe/lang/StringExt.java
 src/haxe/lang/StringRefl.java
 src/haxe/lang/FieldLookup.java
 src/haxe/root/HelloWorld.java
+src/haxe/root/MyOptionsThing.java
 src/haxe/root/StringBuf.java

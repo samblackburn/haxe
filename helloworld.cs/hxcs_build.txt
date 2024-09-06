@@ -74,6 +74,9 @@ M System.Security.NamedPermissionSet
 M System.ComponentModel.IContainer
 M System.Reflection.InterfaceMapping
 M haxe.Rest
+M haxe.Log
+C haxe.Log
+C haxe.Log_Anon_62__Fun
 M cs.system.io.StreamReader
 M System.Runtime.InteropServices._Exception
 M System.Enum
@@ -443,6 +446,7 @@ M System.Math
 M cs.system.security.policy.PolicyStatementAttribute
 M HelloWorld
 C HelloWorld
+C MyOptionsThing
 M System.Diagnostics.ProcessThreadCollection
 M System.Attribute
 M System.IO.Stream

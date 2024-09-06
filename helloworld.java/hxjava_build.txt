@@ -81,6 +81,9 @@ M java.nio.LongBuffer
 M java.util.function.LongFunction
 M java.lang.Enum
 M java.text.AttributedCharacterIterator
+M haxe.Log
+C haxe.Log
+C haxe.Log_Anon_62__Fun
 M haxe.lang.IEquatable
 C haxe.lang.IEquatable
 M java.net.FileNameMap
@@ -362,6 +365,7 @@ M java.util.function.ObjDoubleConsumer
 M java.nio.ShortBuffer
 M haxe.root.HelloWorld
 C haxe.root.HelloWorld
+C haxe.root.MyOptionsThing
 M java.io.ObjectStreamException
 M java.security.Permission
 M java.time.format.ResolverStyle
